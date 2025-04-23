@@ -1,0 +1,8 @@
+[build]
+  publish = "/"
+
+# Redirect all 404s to index.html for SPA routing
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
